@@ -67,6 +67,9 @@ ul,ol {
   bottom: 95px !important;
   left: 0;
 }
+.scroll-off {
+  overflow: hidden;
+}
 .side-bar__wrap.active-side {
   display: block;
   width: 300px;

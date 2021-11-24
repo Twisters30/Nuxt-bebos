@@ -86,6 +86,10 @@ export default {
     border-right: 1px solid rgba(0, 0, 0, 0.2);
     transition: width 300ms;
   }
+  &__wrap.active-side > nav > ul {
+    overflow-y: scroll;
+    height: calc(100vh - 100px);
+  }
   &__wrap.active-side > form > input {
     border: 1px solid rgba(0, 0, 0, 0.2);
     width: 283px;

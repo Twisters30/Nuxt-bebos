@@ -95,7 +95,9 @@ export default {
   methods: {
     clickBurger () {
       this.activeBurger = !this.activeBurger
+      const body = document.querySelector('body')
       const sidebar = document.querySelector('.side-bar__wrap')
+      body.classList.toggle('scroll-off')
       sidebar.classList.toggle('active-side')
     },
     dropdownClick () {
